@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/templates/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+p, li, form {
+  font-weight: 500;
+}
+
+.bg-orange, .carousel-indicators li {
+  background: #fe5f20;
+}
+
+.text-orange {
+  color: #fe5f20;
+}
+
+.carousel-control-prev .fas, .carousel-control-next .fas {
+  text-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  border-radius: 0px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 20px;
+}
+
+#landingcarousel {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.packages-bg {
+  background: url('../images/amazon-prime-packages.jpg');
+  background-size: cover;
+}
+
+label.error {
+  color: #fe5f20;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .carousel-control-prev .fas, .carousel-control-next .fas {
+    font-size: 5rem;
+  }
+
+  .card-title {
+    font-size: 2.5rem;
+  }
+
+  .text-footer .fa-copyright {
+    font-size: 1.4rem;
+  }
+
+  .navbar-brand, .text-footer {
+    font-size: 1.8rem;
+  }
+
+  form input.form-control, form label {
+    font-size: 1.8rem;
+  }
+
+  label.error {
+    font-size: 1.5rem;
+  }
+
+  .big-text {
+    font-size: 3.8rem;
+  }
+
+  ul {
+    padding-left: 40px;
+  }
+}
